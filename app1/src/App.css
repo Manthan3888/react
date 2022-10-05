@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 1320px;
+    margin: auto;
+  }
+  .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .justify-content-spacebetween
+  {
+    justify-content: space-between;
+  }
+  .align-item-center
+  {
+    align-items: center;
+  }
+  .bgcolor{
+    background-color: #003366;
+  }
+  .space{
+    margin: 100px 0px;
+  }
+  .info div{
+    padding-left: 12px;
+  }
+  .top_header{
+    color: white;
+    padding: 7px 0px;
+  }
+  .top_header img{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin: 7px;
+  }
+  .social div{
+    padding-right: 12px;
+  }
+  .logo_header{
+    width: 100%;
+  }
+  .logo1{
+    width: 30%;
+  }
+  .nav_menu{
+    width: 70%;
+  }
+  .logo1 img{
+    width: 60%;
+    margin: 10px 0px;
+  }
+  .nav_menu ul{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .heading h2{
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .heading h5{
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .card{
+    width: 100%;
+    margin: 20px;
+  }
+  .card_info{
+    border: 1px transparent;
+    height: 320px ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 12px rgba(0,0,0, 0.2);
+    overflow: hidden;
+  }
+  .card_img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .cap{
+    border-bottom: 1px solid;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .star{
+    color: #FFC600;
+  }
+  .cap_1{
+    margin: 10px;
+  }
+  .card_info button{
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+  center .btn{
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: #FFC600;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: transparent;
+    margin-top: 30px;
+  }
+  .poster{
+    width: 100%;
+    margin-top: 100px;
+  }
+  .poster_info{
+    width: 60%;
+    border: 1px transparent;
+    box-shadow: 5px 5px 12px rgba(0,0,0, 0.4);
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 250px 250px 0;
+    height: 420px;
+    padding: 50px;
+  }
+  .poster_info .btn{
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: #FFC600;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: transparent;
+    margin-top: 30px;
+  }
+  .poster_info p{
+    line-height: 25px;
+    text-align: justify;
+    color: #9E9E9E;
+    font-weight: 600;
+  }
+  .poster_info h5{
+    margin-bottom: 10px;
+  }
+  .poster_info h4{
+    margin-bottom: 15px;
+  }
+  .poster_video{
+    width: 40%;
+    margin-left: 850px;
+  }
+  iframe{
+    height: 400px;
+    width: 110%;
+  }
+  .counter_bg img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;  
+  }
+  .counter_bg{
+    position: relative;
+  }
+  .counter_info{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(48,75, 115, 0.6);
+    padding-top: 60px;
+  }
+  .counter{
+    width: 25%;
+    color: white;
+  }
+  .counter h3{
+    font-size: 30px;
+  }
+  .counter h5{
+    font-size: 16px;
+  }
+  .counter img{
+    height: 70px;
+    width: 20%;
+  }
+  .count_icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #9E9E9E;  
+  }
+  .student div img{
+    border-radius: 50%;
+    margin: 12px;
+  }
+  .student div span{
+    color: #FFC600;
+  }
+  .content_info button{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.2);
+  }
+  .content_info img{
+    height: 70px;
+  }
+  .content_img{
+    position: relative;
+    width: 60%;
+  }
+  .content_img img{
+    height: 550px;  
+    margin-left: 100px;
+  }
+  .content_img .design{
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .content{
+    width: 100%;
+  }
+  .content_info{
+    width: 40%;
+  }
+  .content_info p{
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #9E9E9E;
+    line-height: 25px;
+  }
+  .content_info h5,.de1{
+    margin-bottom: 20px;
+  }
+  .content_info h2{
+    margin-bottom: 50px;
+  }
+  .bgcolor1{
+    background-color: #F7F7F7;
+    padding: 60px 0;
+  }
+  .heading h5{
+    font-weight: 500;
+  }
+  .heading{
+    margin-bottom: 30px;
+  }
+  .card_title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .card_info1{
+    border: 1px transparent;
+    height: auto ;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px rgba(0,0,0, 0.2);
+    overflow: hidden;
+    padding: 40px;
+  }
+  .card_text{
+    color: #9E9E9E;
+    line-height: 20px;
+    text-align: center;
+  }
+  .ch1{
+    background-color: #F64860;
+    border-radius: 60%;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+  }
+  .ch1 img{
+    width: 100%;
+    height: 70px;
+  }
+  .ch2{
+    background-color: #FFBC07;
+    border-radius: 60%;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .ch2 img{
+    width: 100%;
+    height: 70px;
+  }
+  .ch3{
+    background-color: #B3D36A;
+    border-radius: 60%;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .ch3 img{
+    width: 100%;
+    height: 70px;
+  }
+  .ch4{
+    background-color: #564EA7;
+    border-radius: 60%;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .ch4 img{
+    width: 100%;
+    height: 70px;
+  }
+  .ch5{
+    background-color: #4482FF;
+    border-radius: 60%;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .ch5 img{
+    width: 100%;
+    height: 70px;
+  }
+  .ch6{
+    background-color: #F950A4;
+    border-radius: 60%;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .ch6 img{
+    width: 100%;
+    height: 70px;
+  }
+  .slider{
+    margin: 50px 0;
+  }
+  .slider_img{
+    border: 1px solid #9E9E9E;
+    padding: 10px;
+  }
+  .course{
+    border: 1px solid #9E9E9E;
+    padding: 10px;
+    margin: 5px;
+  }
+  .course p{
+    font-size: 12px;
+  }
+  .end a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+  }
+  .end h3{
+    margin-left: 5px;
+  }
+  .social1 div{
+    border-radius: 5px;
+    background-color: #1A4876;
+    color: white;
+    padding: 5px 10px;
+    margin: 3px;
+  }
+  .logo2 img{
+    width: 70%;
+  }
+  .part{
+    width: 25%;
+  }
+  .part div p{
+    color: white;
+  }
+  .part .logo1_caption{
+    margin: 10px 0 25px 0;
+  }
+  .part div h3,span{
+    color: #FFBC07;
+    margin-bottom: 20px;
+  }
+  .other_info{
+    padding: 30px 0;
+  }
+  .part .title h3{
+    color: white ;
+  }
+  .part div a{
+    text-decoration: none;
+    color: white;
+  }
+  .part div{
+    margin-bottom: 20px;
+  }
+  .part button{
+    color: #FFBC07;
+    border: 2px solid #FFBC07;
+    background-color: #003366;
+    padding: 10px 30px;
+  }
+  .part button div{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .bgcolor2{
+    background-color: #072044;
+  }
+  .footer_end{
+    color: white;
+    padding: 35px 0;
+  }

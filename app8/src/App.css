@@ -1,0 +1,25 @@
+.tictac{
+  width: 100%;
+}
+.tictac div{
+  text-align: center;
+  margin: 30px;
+}
+.button {
+  width: 80px;
+  height: 52px;
+  margin: auto;
+  border: 1px solid gray;
+  font-size: 30px;
+  text-align: center;
+  transition: .3s;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+}
+.tictac button{
+  padding: 10px 20px;
+}
+
+

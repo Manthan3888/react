@@ -1,0 +1,13 @@
+*{
+  color: white;
+}
+.bg{
+  background-color : rgb(32, 35, 41);
+}
+.card-body{
+  margin-left: 80px;
+}
+.bg1{
+  background-color: black;
+}
+

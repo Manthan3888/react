@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg{
+  width: 100%;
+}
+.calc{
+  width: 40%;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  margin-top: 125px;
+  padding: 50px;
+  background-color: black;
+  border-radius: 40px;
+
+}
+.calc div input,h1{
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+}
+.calc div input{
+  font-size: 20px;
+}
+.calc h1{
+  width: 100%;
+}
